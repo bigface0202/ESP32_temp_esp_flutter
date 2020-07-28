@@ -185,6 +185,8 @@ void loop(void)
     Serial.println("start advertising");
     M5.Lcd.setCursor(0, 0);
     M5.Lcd.print("start advertising");
+    M5.Lcd.setCursor(0, 15);
+    M5.Lcd.print(String(temp_crr_c) + " deg.(C)");
     oldDeviceConnected = deviceConnected;
   }
   // connecting
