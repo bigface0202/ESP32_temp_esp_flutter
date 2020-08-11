@@ -98,7 +98,10 @@ class ScanResultTile extends StatelessWidget {
       ),
       children: <Widget>[
         _buildAdvRow(
-            context, 'Complete Local Name', result.advertisementData.localName),
+            context,
+            'Complete Local Name',
+            result.advertisementData
+                .localName), //_buildAdvRowにはタイトルと数値（信号強度等）が渡される
         _buildAdvRow(context, 'Tx Power Level',
             '${result.advertisementData.txPowerLevel ?? 'N/A'}'),
         _buildAdvRow(
@@ -187,7 +190,7 @@ class CharacteristicTile extends StatelessWidget {
                 Text('Characteristic'),
                 Text(
                     '0x${characteristic.uuid.toString().toUpperCase().substring(4, 8)}',
-                    style: Theme.of(context).textTheme.body1.copyWith(
+                    style: Theme.of(context).textTheme.bodyText2.copyWith(
                         color: Theme.of(context).textTheme.caption.color))
               ],
             ),

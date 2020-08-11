@@ -240,7 +240,7 @@ class _SensorScreenState extends State<SensorScreen> {
                                   children: <Widget>[
                                     Text('Current value from Sensor',
                                         style: TextStyle(fontSize: 14)),
-                                    Text('${currentValue} deg.(C)',
+                                    Text('$currentValue deg.(C)',
                                         style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             fontSize: 24))

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/yusuke/Documents/Flutter project/Flutter-Smile-Face-Detection-master/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
+            "outputFile": "/home/yusuke/Documents/Github/ESP32_temp_esp_flutter/temp_ble_camera_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
             "map": [
                 {
                     "source": "/home/yusuke/.gradle/caches/transforms-2/files-2.1/c6e2bda50732c3eca7e3f0f7b80eb7d0/res/values-de/values-de.xml",
